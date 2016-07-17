@@ -205,6 +205,38 @@ https://help.github.com/articles/ignoring-files/
 
 #### Compartilhando seu código atraves do GitHub
 
+##### Apontando seu projeto para o GitHub
+
+No caso `meu-primeiro-projeto` nos inicializamos o respostio Git na maquina local e agora nos precisamos liberar esse projeto no repositorio remoto, nesse caso nos precisamos apontar os dois reposótirios. Para isso nos vamos executar o comando `git remote`.
+
+Antes de executar o comadno voce deve criar um rempostiro no GitHub esse video mostrar como afazer isso, quando o GitHub cria um repositório voce rece uma URL que vai quer permite ligar os dois respositório.
+
+```
+git remote add origin <URL do GitHub>
+```
+
+Apoos isso nos precismos enviar as apteracoes para o GitHub, o comando `git push` deve ser usado para fazer isso
+
+```
+git push origin master
+```
+
+Voce precisara informar o usuário e senha do GitHub
+
+**video**
+
+Acesse a URL do proejto no GitHub e veja que as aletarcpes foram enviadas
+
+##### Cloando um reposítorio
+
+Voce escontrou um projeto legal e você execeutar ele na sua maquiana, para isso nos vamos coner esse repostitprio atraves do comando `git clone`
+
+```
+https://github.com/jonatas/hp12c
+```
+
+Despous dissso uma pasta chamada `hp12c` é craido na minha máquina e eu vou ler o `README.md` ou utro arquivo de instruções para toda ro projeto na minha maquina
 
 
+##### 
 

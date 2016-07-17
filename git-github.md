@@ -4,7 +4,7 @@
 
 Esse tutotial tem como objetivo ser um guia para uso do Git e GitHub.
 
-Se você tem alguma sugestão de melhoria abra uma (issue)[https://github.com/OESTIDigital/tutoriais/issues] ou se preferir você pode enviar um (pull request)[https://github.com/OESTIDigital/tutoriais/pulls] com as modificações.
+Se você tem alguma sugestão de melhoria abra uma [issue](https://github.com/OESTIDigital/tutoriais/issues) ou se preferir você pode enviar um [pull request](https://github.com/OESTIDigital/tutoriais/pulls) com as modificações.
 
 
 #### Objetivos

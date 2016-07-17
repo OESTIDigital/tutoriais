@@ -134,8 +134,70 @@ Exeistem outras configuraçoes que voc6e pode estar fazendo para melhor o seu am
 
 Outro comando util é que pdoe ser utilziaro é o `help` você pode listas a ajuda de todos os comandaos digitando `git help` ou obter detalhes de um comando usando `git help [nome do comando ]` como por exemplo: `git help commit`.
 
-#### Principais comandos do Git
+#### Versionando seu código com p Git
 
+Nao vamos inicializar um repositório cirnado uma pasta com o nome `meu-primeiro-projeto` o objetivo é utilziar essa pasta como exemplo de uso do Git.
 
+```
+mkdir meu-primeiro-projeto
+cd meu-primeiro-projeto
+```
+
+O comando `init` transforam o diretório em um repositório Git. 
+
+```
+git init
+```
+
+Nosso proejto ainda vazio, mas já podemos verificar a existencia de uma pasta oculta chamda `.git`, nesse pasta ficam os metaados do repositório. Voce nao deve excluir ou altare qualqeur arquivo deses local.
+
+Para rastrear um aquivo nos precisamos crialo dentro do repositório, nesse exeplo nos vamoso criar uma sequencoa de arquivos para demostrat o uso dos comandos e simualr a existenca de um projeto
+
+```
+touch index.html
+touch anotacoes.txt
+mkdir css
+touch css/index.css
+```
+
+O comando `git status` deve ser utiliar para verificar o estado dos seu arquivos, execeute esse comando no repositório e você vai ter uma saida como essa:
+
+**video**
+
+Observe que o Git esta no falando que os nosso arquvos ainda nao estao sendo raterado, voce precisa executar o comando `git add` para rastreas essse arquivos.
+
+Voce pode executar esse comando de duas formas:
+
+- Adicionado tdoos os arquivos: `git add .`.
+- Adicioando alguma arquivo expecifico: `git add <nome do arquivo>`.
+
+**video**
+
+Os arquivos que compoes o nosso projeto já estao sendo rastrados nos precisamo agora gravar as nossas alteraçoes, ou em uma lingaugem mais tecnica *commitar* no repostitório.
+
+Execeute o commando `git commit -m "Incluído os arquvos index.html e index.css"`, o comando `git commit` foi invocado com a opção `-m` que rece como parametro uma mensagem, essa mensagem vai estar vinculada ao log do commit.
+
+Voce tambem pode utilair o comandndo `git commit -am "[menagem do commit]"` esse comando discarta a necessidade de usar o `git add`
+
+##### Aleterando um arquivo
+
+Voce ao longo do desenvocimento do projeto vai fazendo alteracoes em arquivos ja rastreados, nesse casoso voce deve utilziar os comandos `git add` e `git commit` pra liberar as modificacoes.
+
+**video** 
+
+##### Removendo um arquivo
+
+Se voce quiser remover um arquivo do versionando voce pode utilizar o comando `git rm [nome do arquivo]` esse comando não exclui o arquivo do disco, penas remove ele do reasteramento, se voce quiser excuiro arquivo voce podem apenas deletar ele.
+
+**video** 
+
+##### Ingorando arquivos
+
+.gitingore 
+Proque ignorar arquivos
+Esse arquivos e pastas serao ingnorados pelo Git
+https://github.com/github/gitignore
+https://git-scm.com/docs/gitignore
+https://help.github.com/articles/ignoring-files/
 
 

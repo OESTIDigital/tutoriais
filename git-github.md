@@ -232,11 +232,24 @@ Acesse a URL do proejto no GitHub e veja que as aletarcpes foram enviadas
 Voce escontrou um projeto legal e você execeutar ele na sua maquiana, para isso nos vamos coner esse repostitprio atraves do comando `git clone`
 
 ```
-https://github.com/jonatas/hp12c
+git clone https://github.com/jonatas/hp12c
 ```
 
 Despous dissso uma pasta chamada `hp12c` é craido na minha máquina e eu vou ler o `README.md` ou utro arquivo de instruções para toda ro projeto na minha maquina
 
 
-##### 
+##### Eu tenho um projeto no GitHUb e quero rodar ele em outra maquina 
+
+Nesse caso voce deve clonar o projeto com o comando `git clone` fazer a modificoes commitar as alteracoes e executar o comando `git push`
+
+*video*
+
+##### Liberando seu proejto da faculdada
+
+###### Checlk list
+
+
+
+
+
 

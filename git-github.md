@@ -253,10 +253,10 @@ Nesse caso voce deve clonar o projeto com o comando `git clone` fazer a modifico
 - Criar o arquivo gitginore
 - Cirar o um repositorio no GitHub para obtera a URL do projeto
 - Execuar os comando do Git para versionar os seus arquivos fontes
-	- git init 
-	- git add .
-	- git commit 
-	- git add origin <URL do projeto>
-	- git push origin master 
+	- `git init`
+	- `git add .`
+	- `git commit` 
+	- `git add origin <URL do projeto>`
+	- `git push origin master`
 
 *video*

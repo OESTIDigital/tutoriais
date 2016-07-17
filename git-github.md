@@ -260,3 +260,7 @@ Nesse caso voce deve clonar o projeto com o comando `git clone` fazer a modifico
 	- `git push origin master`
 
 *video*
+
+
+##### Fazendo fork de um projeto e criando um pull request
+

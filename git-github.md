@@ -1,16 +1,22 @@
-Esse tutotial serve como complento e guia para uso do Git e Gihub
+# Git e Github para Iniciantes 
 
-Se você tem alguma sugestao de melhoria voce pode abrir uma issue com a sua sugestão ou enviar um pull request com modificaçoes sugeridas.
+:octocat:
+
+Esse tutotial tem como objetivo ser um guia para uso do Git e GitHub.
+
+Se você tem alguma sugestão de melhoria abra uma (issue)[https://github.com/OESTIDigital/tutoriais/issues] ou se preferir você pode enviar um (pull request)[https://github.com/OESTIDigital/tutoriais/pulls] com as modificações.
+
 
 #### Objetivos
 
-- Entender o que é controle de versão
+- Entender o que é controle de versão e compartilhamento de código
 - Principais comandos do Git
-- Subir seu código no GitHub
-- Usar linha de comando
-- Aprender a compartilhar meu código
+- Como usar o GitHub
+- Aprender a compartilhar seu código
 
 #### Material complementar
+
+É importante que você consulte outras fontes de informação, nós separamos alguns conteúdos com mais detalhes de como você pode utilizar o Git e GitHub.
 
 ###### Livro
 
@@ -29,7 +35,7 @@ Se você tem alguma sugestao de melhoria voce pode abrir uma issue com a sua sug
 - https://www.youtube.com/watch?v=neDiLHwXSVo
 - https://www.youtube.com/watch?v=yNwh0S0S0bU
 
-> Dica: No Youtube aumente a velocidade para 1.5x
+> Dica: No Youtube você pode aumentar a velocidade de execução do vídeo para 1.5x
 
 #### Mitos
 
@@ -39,21 +45,23 @@ Se você tem alguma sugestao de melhoria voce pode abrir uma issue com a sua sug
 
 #### Motivação
 
-- No seu computador ninguem vai ver o seu potencia
-- É seu portifólio
-- O código não é so seu
-- Ajuda muitas pessoas a escreverem sotware com mais qualidade
+- No seu computador ninguem vai ver o seu potencial
+- O GitHub é seu portifólio
+- O código não é so seu, compartilhe ele
+- Você pode ajduar muitas pessoas a escreverem software com mais qualidade
 
 #### Compartilhamento de Código
 
 - Contribuindo com projetos open source
-- Dando like
-- Escrevendo código
-- Criando Gists
-- Escrevendo sobre projetos
-- Compartilahndo projetos 
+- De like em projetos que você gostou e usou
+- Escreva código e libere no GitHub
+- Crie Gists
+- Escreva seus prórpios projetos
+- Compartilhe projetos 
+- Crie um blog e escreva sobre o que você esta fazendo
+- Participe de eventos e ajude a organizar
 
-### Entendendo o Git  GitHub
+### Entendendo o Git & GitHub
 
 #### Git 
 

@@ -9,10 +9,10 @@ Se você tem alguma sugestão de melhoria abra uma [issue](https://github.com/OE
 
 #### Objetivos
 
-- Entender o que é controle de versão e compartilhamento de código
-- Principais comandos do Git
-- Como usar o GitHub
-- Aprender a compartilhar seu código
+- Entender o que é controle de versão;
+- Principais comandos do Git;
+- Como usar o GitHub;
+- Aprender a compartilhar seu código;
 
 #### Material complementar
 

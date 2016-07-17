@@ -248,11 +248,11 @@ Nesse caso voce deve clonar o projeto com o comando `git clone` fazer a modifico
 
 ###### Checlk list
 
-1 - Cirar a psata do projeto
-2 - Crair o arquivo README.md com detalehs do proejto 
-3 - Criar o arquivo gitginore
-4 - Cirar o um repositorio no GitHub para obtera a URL do projeto
-4 - Execuar os comando do Git para versionar os seus arquivos fontes
+- Cirar a psata do projeto
+- Crair o arquivo README.md com detalehs do proejto 
+- Criar o arquivo gitginore
+- Cirar o um repositorio no GitHub para obtera a URL do projeto
+- Execuar os comando do Git para versionar os seus arquivos fontes
 	git init 
 	git add .
 	git commit 

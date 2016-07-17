@@ -246,7 +246,7 @@ Nesse caso voce deve clonar o projeto com o comando `git clone` fazer a modifico
 
 ##### Liberando seu proejto da faculdada
 
-###### Checlk list
+###### Check list
 
 - Cirar a psata do projeto
 - Crair o arquivo README.md com detalehs do proejto 

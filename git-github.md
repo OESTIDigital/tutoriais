@@ -9,10 +9,10 @@ Se você tem alguma sugestão de melhoria abra uma [issue](https://github.com/OE
 
 #### Objetivos
 
-- Entender o que é controle de versão;
-- Principais comandos do Git;
-- Como usar o GitHub;
-- Aprender a compartilhar seu código;
+- Entender o que é controle de versão.
+- Principais comandos do Git.
+- Como usar o GitHub.
+- Aprender a compartilhar seu código.
 
 #### Material complementar
 
@@ -39,16 +39,16 @@ Se você tem alguma sugestão de melhoria abra uma [issue](https://github.com/OE
 
 #### Mitos
 
-- Git e GitHub e dificil
-- Nao tenha medo de usar linha de comando
-- O que eu estou escrevendo não é bom
+- Git e GitHub é dificil.
+- Medo de usar linha de comando.
+- O que eu estou escrevendo não é bom.
 
 #### Motivação
 
-- No seu computador ninguem vai ver o seu potencial
-- O GitHub é seu portifólio
-- O código não é so seu, compartilhe ele
-- Você pode ajduar muitas pessoas a escreverem software com mais qualidade
+- No seu computador ninguem ve o seu potencial.
+- O GitHub é seu portifólio.
+- O código não é só seu, compartilhe ele.
+- Você pode ajduar muitas pessoas a escreverem software com mais qualidade.
 
 #### Compartilhamento de Código
 
@@ -57,23 +57,21 @@ Se você tem alguma sugestão de melhoria abra uma [issue](https://github.com/OE
 - Escreva código e libere no GitHub
 - Crie Gists
 - Escreva seus prórpios projetos
-- Compartilhe projetos 
-- Crie um blog e escreva sobre o que você esta fazendo
+- Compartilhe projetos
+- Crie um blog e escreva sobre o que você esta fazendo - GitHub Pages
 - Participe de eventos e ajude a organizar
 
 ### Entendendo o Git & GitHub
 
-#### Git 
+#### Git
 
-##### O que é controle de versao 
-
-Tem a finaldiade de gerencias modificacoes em arquivos, um arquivo sofre muitas alteraçoes sendo necessário manter um histórico dessas alteraçoes para manipulação, voltar uma versão por exemplo.
+Um sistema de controle de versão tem a finaldiade de gerencias modificacoes em arquivos, um arquivo sofre muitas alteraçoes sendo necessário manter um histórico dessas alteraçoes para manipulação, voltar uma versão por exemplo.
 
 O Git é um sistemas de contreole de versão distribuido onde os usuário tem uma cópia do repositório. Isso permite que você cosiga  fazer alteraçoes e commits sem estar necessriamente a um repositório remoto.
 
 Outros sisteas de controle de versão basedos no Modelo Cliente Servidor, como por exemplo o SVN devem exigem que você tenha um servidor remoto para podemo realziar alteracoes e commits.
 
-Criado em 2005 por 	Linus Torvals para manter o kernel do Linux, em engenharia de software associamos o uso do Git e outras ferrametnas de controle de versao a Gerencia de Configuracao de Software, onde mantemos informações do que mudou, quando mudou, porque mudou é uma docmunentacao vinculada a versão dos arquivos.
+Criado em 2005 por Linus Torvals para manter o kernel do Linux, em engenharia de software associamos o uso do Git e outras ferrametnas de controle de versao a Gerencia de Configuracao de Software, onde mantemos informações do que mudou, quando mudou, porque mudou é uma docmunentacao vinculada a versão dos arquivos.
 
 ##### Instanado o Git
 

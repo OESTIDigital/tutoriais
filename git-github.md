@@ -65,34 +65,35 @@ Se você tem alguma sugestão de melhoria abra uma [issue](https://github.com/OE
 
 #### Git
 
-Um sistema de controle de versão tem a finaldiade de gerencias modificacoes em arquivos, um arquivo sofre muitas alteraçoes sendo necessário manter um histórico dessas alteraçoes para manipulação, voltar uma versão por exemplo.
+Um sistema de controle de versão tem a finalidade de gerenciar modificacoes em arquivos, um arquivo sofre muitas alteraçoes durante o seu uso sendo necessário manter um histórico dessas alteraçoes para posterior manipulação, por exemplo, voltar o aquivo para uma versão especifica. 
 
-O Git é um sistemas de contreole de versão distribuido onde os usuário tem uma cópia do repositório. Isso permite que você cosiga  fazer alteraçoes e commits sem estar necessriamente a um repositório remoto.
+No que diz respeito a código é essecial o controle de versao, pois com isso conseguimos vincualar uma documentação das alteracóes, comparar diferentes versoes e saber o que foi alterado e por que, entre outras vantagens. Em projetos de software o controle de versão esta diretametne vonculado ao trabalho em equipe onde muitas pessoas fazem diferentes alteracoes em arquivos, exigindo a mesclagem desse trabalho.
 
-Outros sisteas de controle de versão basedos no Modelo Cliente Servidor, como por exemplo o SVN devem exigem que você tenha um servidor remoto para podemo realziar alteracoes e commits.
+Em um sistema de contrle de versao nos tempo um repositório onde obtemos as versoes do projeto ou de algum arquivo em especifico, a mesclagem desses arquivo pode ocorrer de foram automatica ou no caso de comflitos exige a intervncao manual.
 
-Criado em 2005 por Linus Torvals para manter o kernel do Linux, em engenharia de software associamos o uso do Git e outras ferrametnas de controle de versao a Gerencia de Configuracao de Software, onde mantemos informações do que mudou, quando mudou, porque mudou é uma docmunentacao vinculada a versão dos arquivos.
+O Git é um sistemas de controle de versão distribuido onde os usuários tem uma cópia dos repositórios em sua maquina, isso permite que você cosiga fazer alteraçoes e commits sem estar necessriamente a um repositório remoto.
+
+Exetem outros sistemas de controle de versão basedos no modelo cliente servidor, como por exemplo o SVN, esse sistemas exigem que você tenha um servidor remoto para poder realizar alteracoes e commits.
+
+Criado em 2005 por Linus Torvals para manter o kernel do Linux, o uso do Git em engenharia de software a Gerencia de Configuracao de Software, onde mantemos informações do que mudou, quando mudou, porque mudou é uma docmunentacao vinculada a versão dos arquivos.
+
+O Git é utilicados por inumeras empresas é saber como utilziar ele é uma habildiade indispensavel para uma carreira bem sucessidade no desenvolvimento de software.
 
 ##### Instanado o Git
 
-O processo de isntalacao é bem simples, acesse a página https://git-scm.com/downloads escolha o sistemas operacional que vocue esta utilizando e sigua s intruções de intralacao 
+O processo de isntalacao é bem simples, acesse a página https://git-scm.com/downloads escolha o sistemas operacional que voce esta utilizando e sigua as instruções de intralacao.
 
-Eu recomendo formtementeo o uso da linha de comandos para trabalhando com o Git, você pode utilizar alguma GUI para complementear o uso da linha de comenaod, como pode exemplos ver os logs de commit, arvore de commits, diff de commits, etc...	
+Eu recomendo fortemente o uso de linha de comandos para trabalhando com o Git, você pode utilizar alguma GUI para complementear o uso da linha de comando, como pode exemplos ver os logs de commit, arvore de commits, diff de commits, etc.
 
 Nesse site, https://git-scm.com/download/gui/linux, você pode verificar algumas alternativas para GUI Clientes
 
-Para complementar o estudo fazer o (Git Tutorial)[https://try.github.io/] 
+Para complementar o estudo faça o [Git Tutorial](https://try.github.io/)
 
-Outras ferramentas alem do Git
-- SVN
-- Mercurial 
-- CSV
-- Bazzar
-- Microsoft TFS
+Outras ferramentas alem do Git: SVN; Mercurial; CSV; Bazzar; Microsoft TFS
 
 #### GitHub
 
-É um serviço Web utilziar para hospedar projetos que utilizando o Git, ele tem um funcionaldiades semelhantes a uma rede social, porem é voltada para comunidade Open Source, surgiu em 2008, é a rede mais utilziada por desenvolvedores e impresar muito importantes como: Google; Nasa; Linekdin; Facebook; Twiiter; Contentools; RDStaton; Globo; NetFlix; Spotyfy, tem projetos hospedados no GitHub	
+É um serviço Web utilziar para hospedar repositórios Git, ele tem é uma rede social voltada para desenvolvedores com bastatne influencia na comunidade open Source, surgiu em 2008, e é utilziado por inumeras empresas importantes como: Google; Nasa; Linekdin; Facebook; Twiiter; Contentools; RDStaton; Globo; NetFlix; Spotyfy que possuem projetos hospedados no GitHub.
 
 Exsistem muuitas funcionaldaide que pdoem ser utilizadas pelo desenvolcedores:
 
@@ -113,7 +114,7 @@ O GitHub é muito utilizado para hosedar projetos Open SOurce, logo os seu repos
 
 ### Configurando o Git
 
-A configuracao basica que você precisa fazer é a de usuario e email, aterves de linha de comando digite a seguinte intrução:
+A configuracao basica que você precisa fazer é a de usuario e email, aterves de linha de comando digite a seguinte intrução, essas informações serão utilizadas nos commits:
 
 ```
 git config --global user.name "<Seu Nome>"
@@ -132,4 +133,9 @@ Você pode listar as suas configurações utilziando o comando `git config --lis
 Exeistem outras configuraçoes que voc6e pode estar fazendo para melhor o seu ambiente de desenvolvimento, acesse esse (link)[https://git-scm.com/book/tr/v2/Customizing-Git-Git-Configuration] para ver uma lsita completa das configuraçoes do disponiveis.  
 
 Outro comando util é que pdoe ser utilziaro é o `help` você pode listas a ajuda de todos os comandaos digitando `git help` ou obter detalhes de um comando usando `git help [nome do comando ]` como por exemplo: `git help commit`.
+
+#### Principais comandos do Git
+
+
+
 

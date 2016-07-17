@@ -110,6 +110,9 @@ Alem do GitHub temos outras alternaricas como: GitLab; BitBuckets e SourceForge.
 
 O GitHub é muito utilizado para hosedar projetos Open SOurce, logo os seu repositório são publocis, existe a versao paga que permite ter repositórios privados para empresas utilizarem.
 
+Nos precisamos mostrar para o mundo que o nosso código, e para isso nos podemos utilziar o GitHub, se você ainda tem tem uma conta no GitHUb crie uma se tiver dúvidas pode acessar esse video https://www.youtube.com/watch?v=i0TPn0KnqDs 
+
+
 > Importante: Git não é a mesma coisa que GitHub, Git é o controle de versão, GitHub é um local na Web que você hospeda seus projetos.
 
 ### Configurando o Git
@@ -199,5 +202,9 @@ Esse arquivos e pastas serao ingnorados pelo Git
 https://github.com/github/gitignore
 https://git-scm.com/docs/gitignore
 https://help.github.com/articles/ignoring-files/
+
+#### Compartilhando seu código atraves do GitHub
+
+
 
 

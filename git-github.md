@@ -18,15 +18,15 @@ Se você tem alguma sugestão de melhoria abra uma [issue](https://github.com/OE
 
 É importante que você consulte outras fontes de informação, nós separamos alguns conteúdos com mais detalhes de como você pode utilizar o Git e GitHub.
 
-###### Livro
+##### Livro
 
 - https://www.casadocodigo.com.br/pages/sumario-git-github
 
-###### Curso
+##### Curso
 
 - http://willianjusten.teachable.com/courses/git-e-github-para-iniciantes
 	
-###### Videos recomendados 
+##### Videos recomendados 
 
 - https://www.youtube.com/watch?v=TReVFOxhh7E
 - https://www.youtube.com/watch?v=Fc_UC5SywuU

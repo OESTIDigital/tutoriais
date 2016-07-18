@@ -84,7 +84,7 @@ O processo de isntalacao é bem simples, acesse a página https://git-scm.com/do
 
 Eu recomendo fortemente o uso de linha de comandos para trabalhando com o Git, você pode utilizar alguma GUI para complementear o uso da linha de comando, como pode exemplos ver os logs de commit, arvore de commits, diff de commits, etc.
 
-Nesse site, https://git-scm.com/download/gui/linux, você pode verificar algumas alternativas para GUI Clientes
+Nesse site, https://git-scm.com/downloads/guis, você pode verificar algumas alternativas para GUI Clientes
 
 Para complementar o estudo faça o [Git Tutorial](https://try.github.io/)
 

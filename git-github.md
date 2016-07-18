@@ -7,26 +7,26 @@ Esse tutotial tem como objetivo ser um guia para uso do Git e GitHub.
 Se você tem alguma sugestão de melhoria para esse texto abra uma [issue](https://github.com/OESTIDigital/tutoriais/issues) ou se preferir você pode enviar um [pull request](https://github.com/OESTIDigital/tutoriais/pulls) com as modificações 🐞.
 
 
-#### Objetivos
+### Objetivos
 
 - Entender o que é controle de versão.
 - Principais comandos do Git.
 - Como usar o GitHub.
 - Aprender a compartilhar seu código.
 
-#### Material complementar
+### Material complementar
 
 É importante que você consulte outras fontes de informação, nós separamos alguns conteúdos com mais detalhes de como você pode utilizar o Git e GitHub.
 
-##### Livro
+#### Livro
 
 - https://www.casadocodigo.com.br/pages/sumario-git-github
 
-##### Curso
+#### Curso
 
 - http://willianjusten.teachable.com/courses/git-e-github-para-iniciantes
 	
-##### Videos recomendados 
+#### Videos recomendados 
 
 - https://www.youtube.com/watch?v=TReVFOxhh7E
 - https://www.youtube.com/watch?v=Fc_UC5SywuU
@@ -57,13 +57,13 @@ Se você tem alguma sugestão de melhoria para esse texto abra uma [issue](https
 - Escreva código e libere no GitHub
 - Crie Gists
 - Escreva seus prórpios projetos
-- Compartilhe projetos
+- Compartilhe os projetos que você esta usando
 - Crie um blog e escreva sobre o que você esta fazendo - GitHub Pages
 - Participe de eventos e ajude a organizar
 
-### Entendendo o Git & GitHub
+## Entendendo o Git & GitHub
 
-#### Git
+### Git
 
 Um sistema de controle de versão tem a finalidade de gerenciar modificacoes em arquivos, um arquivo sofre muitas alteraçoes durante o seu uso sendo necessário manter um histórico dessas alteraçoes para posterior manipulação, por exemplo, voltar o aquivo para uma versão especifica. 
 
@@ -79,7 +79,7 @@ Criado em 2005 por Linus Torvals para manter o kernel do Linux, o uso do Git em 
 
 O Git é utilicados por inumeras empresas é saber como utilziar ele é uma habildiade indispensavel para uma carreira bem sucessidade no desenvolvimento de software.
 
-##### Instanado o Git
+#### Instanado o Git
 
 O processo de isntalacao é bem simples, acesse a página https://git-scm.com/downloads escolha o sistemas operacional que voce esta utilizando e sigua as instruções de intralacao.
 
@@ -100,7 +100,6 @@ Exsistem muuitas funcionaldaide que pdoem ser utilizadas pelo desenvolcedores:
 - Wiki do projeto
 - Colaboradores 
 - Issue
-- Milestone
 - Releases
 - Follow
 - Whatch 
@@ -136,7 +135,7 @@ Exeistem outras configuraçoes que voc6e pode estar fazendo para melhor o seu am
 
 Outro comando util é que pdoe ser utilziaro é o `help` você pode listas a ajuda de todos os comandaos digitando `git help` ou obter detalhes de um comando usando `git help [nome do comando ]` como por exemplo: `git help commit`.
 
-#### Versionando seu código com p Git
+### Versionando seu código com o Git
 
 Nao vamos inicializar um repositório cirnado uma pasta com o nome `meu-primeiro-projeto` o objetivo é utilziar essa pasta como exemplo de uso do Git.
 

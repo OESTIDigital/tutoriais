@@ -4,4 +4,4 @@ Lista de tutoriais
 
 #### [Git e Github para Iniciantes](git-github.md)
 
-Como contribuir: Se você quer falar de um assunto por favar abra um issue ou envie um pull request com o assunto.
+Como contribuir: Você quer contribuir com algum assunto legal abra uma [issue](https://github.com/OESTIDigital/tutoriais/issues) ou crie um [pull request](https://github.com/OESTIDigital/tutoriais/pulls).

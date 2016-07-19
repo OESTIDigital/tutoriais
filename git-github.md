@@ -102,7 +102,8 @@ Exsistem muuitas funcionaldaide que pdoem ser utilizadas pelo desenvolcedores:
 - Releases
 - Follow
 - Whatch 
-- Start 
+- Start
+- GitHub Pages	
 
 Alem do GitHub temos outras alternaricas como: GitLab; BitBuckets e SourceForge.
 

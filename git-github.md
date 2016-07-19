@@ -257,7 +257,7 @@ Nesse caso voce deve clonar o projeto com o comando `git clone` fazer a modifico
 	- `git init`
 	- `git add .`
 	- `git commit` 
+- [ ] Executar o seguinte comandos para subir os aquivos no GitHub
 	- `git add origin <URL do projeto>`
 	- `git push origin master`
-
 *video*

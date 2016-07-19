@@ -57,7 +57,7 @@ Se você tem alguma sugestão de melhoria para esse texto abra uma [issue](https
 - Crie Gists
 - Escreva seus prórpios projetos
 - Compartilhe os projetos que você esta usando
-- Crie um blog e escreva sobre o que você esta fazendo - GitHub Pages
+- Crie um blog e escreva sobre o que você esta fazendo
 - Participe de eventos e ajude a organizar
 
 ## Entendendo o Git & GitHub

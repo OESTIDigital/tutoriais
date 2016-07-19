@@ -6,14 +6,14 @@ Esse tutotial tem como objetivo ser um guia para uso do Git e GitHub.
 
 Se você tem alguma sugestão de melhoria para esse texto abra uma [issue](https://github.com/OESTIDigital/tutoriais/issues) ou se preferir você pode enviar um [pull request](https://github.com/OESTIDigital/tutoriais/pulls) com as modificações 🐞.
 
-### Objetivos
+## Objetivos
 
 - Entender o que é controle de versão.
 - Principais comandos do Git.
 - Como usar o GitHub.
 - Aprender a compartilhar seu código.
 
-### Material complementar
+## Material complementar
 
 É importante que você consulte outras fontes de informação, nós separamos alguns conteúdos com mais detalhes de como você pode utilizar o Git e GitHub.
 
@@ -21,11 +21,11 @@ Se você tem alguma sugestão de melhoria para esse texto abra uma [issue](https
 
 - https://www.casadocodigo.com.br/pages/sumario-git-github
 
-#### Curso
+### Curso
 
 - http://willianjusten.teachable.com/courses/git-e-github-para-iniciantes
 	
-#### Videos recomendados 
+### Videos recomendados 
 
 - https://www.youtube.com/watch?v=TReVFOxhh7E
 - https://www.youtube.com/watch?v=Fc_UC5SywuU
@@ -36,20 +36,20 @@ Se você tem alguma sugestão de melhoria para esse texto abra uma [issue](https
 
 > Dica: No Youtube você pode aumentar a velocidade de execução do vídeo para 1.5x
 
-#### Mitos
+### Mitos
 
 - Git e GitHub é dificil.
 - Medo de usar linha de comando.
 - O que eu estou escrevendo não é bom.
 
-#### Motivação
+### Motivação
 
 - No seu computador ninguem ve o seu potencial.
 - O GitHub é seu portifólio.
 - O código não é só seu, compartilhe ele.
 - Você pode ajduar muitas pessoas a escreverem software com mais qualidade.
 
-#### Compartilhamento de Código
+### Compartilhamento de Código
 
 - Contribuindo com projetos open source
 - De like em projetos que você gostou e usou
@@ -78,7 +78,7 @@ Criado em 2005 por Linus Torvals para manter o kernel do Linux, o uso do Git em 
 
 O Git é utilicados por inumeras empresas é saber como utilziar ele é uma habildiade indispensavel para uma carreira bem sucessidade no desenvolvimento de software.
 
-#### Instanado o Git
+### Instanado o Git
 
 O processo de isntalacao é bem simples, acesse a página https://git-scm.com/downloads escolha o sistemas operacional que voce esta utilizando e sigua as instruções de intralacao.
 
@@ -90,7 +90,7 @@ Para complementar o estudo faça o [Git Tutorial](https://try.github.io/)
 
 Outras ferramentas alem do Git: SVN; Mercurial; CSV; Bazzar; Microsoft TFS
 
-#### GitHub
+### GitHub
 
 É um serviço Web utilziar para hospedar repositórios Git, ele tem é uma rede social voltada para desenvolvedores com bastatne influencia na comunidade open Source, surgiu em 2008, e é utilziado por inumeras empresas importantes como: Google; Nasa; Linekdin; Facebook; Twiiter; Contentools; RDStaton; Globo; NetFlix; Spotyfy que possuem projetos hospedados no GitHub.
 
@@ -179,19 +179,19 @@ Execeute o commando `git commit -m "Incluído os arquvos index.html e index.css"
 
 Voce tambem pode utilair o comandndo `git commit -am "[menagem do commit]"` esse comando discarta a necessidade de usar o `git add`
 
-##### Aleterando um arquivo
+### Alterando um arquivo
 
 Voce ao longo do desenvocimento do projeto vai fazendo alteracoes em arquivos ja rastreados, nesse casoso voce deve utilziar os comandos `git add` e `git commit` pra liberar as modificacoes.
 
 **video** 
 
-##### Removendo um arquivo
+### Removendo um arquivo
 
 Se voce quiser remover um arquivo do versionando voce pode utilizar o comando `git rm [nome do arquivo]` esse comando não exclui o arquivo do disco, penas remove ele do reasteramento, se voce quiser excuiro arquivo voce podem apenas deletar ele.
 
 **video** 
 
-##### Ingorando arquivos
+### Ingorando arquivos
 
 .gitingore 
 Proque ignorar arquivos
@@ -200,9 +200,12 @@ https://github.com/github/gitignore
 https://git-scm.com/docs/gitignore
 https://help.github.com/articles/ignoring-files/
 
-#### Compartilhando seu código atraves do GitHub
+## Compartilhando seu código atraves do GitHub
 
-##### Apontando seu projeto para o GitHub
+### Documentação
+
+
+### Apontando seu projeto para o GitHub
 
 No caso `meu-primeiro-projeto` nos inicializamos o respostio Git na maquina local e agora nos precisamos liberar esse projeto no repositorio remoto, nesse caso nos precisamos apontar os dois reposótirios. Para isso nos vamos executar o comando `git remote`.
 
@@ -224,7 +227,7 @@ Voce precisara informar o usuário e senha do GitHub
 
 Acesse a URL do proejto no GitHub e veja que as aletarcpes foram enviadas
 
-##### Cloando um reposítorio
+### Cloando um reposítorio
 
 Voce escontrou um projeto legal e você execeutar ele na sua maquiana, para isso nos vamos coner esse repostitprio atraves do comando `git clone`
 
@@ -234,22 +237,23 @@ git clone https://github.com/jonatas/hp12c
 
 Despous dissso uma pasta chamada `hp12c` é craido na minha máquina e eu vou ler o `README.md` ou utro arquivo de instruções para toda ro projeto na minha maquina
 
-
-##### Eu tenho um projeto no GitHUb e quero rodar ele em outra maquina 
+###  Cloando um reposítorio e subindo alterações no seu GitHub
 
 Nesse caso voce deve clonar o projeto com o comando `git clone` fazer a modificoes commitar as alteracoes e executar o comando `git push`
 
 *video*
 
-##### Liberando seu proejto da faculdada
+##### Fazendo fork de um projeto e criando um pull requests
 
-###### Check list
+### Subindo os projetos da faculdade
 
-- Cirar a psata do projeto
-- Crair o arquivo README.md com detalehs do proejto 
-- Criar o arquivo gitginore
-- Cirar o um repositorio no GitHub para obtera a URL do projeto
-- Execuar os comando do Git para versionar os seus arquivos fontes
+#### Check list
+
+- [ ] Cirar a psata do projeto
+- [ ] Crair o arquivo README.md com detalehs do proejto 
+- [ ] Criar o arquivo gitginore
+- [ ] Cirar o um repositorio no GitHub para obtera a URL do projeto
+- [ ] Execuar os comando do Git para versionar os seus arquivos fontes
 	- `git init`
 	- `git add .`
 	- `git commit` 
@@ -257,7 +261,3 @@ Nesse caso voce deve clonar o projeto com o comando `git clone` fazer a modifico
 	- `git push origin master`
 
 *video*
-
-
-##### Fazendo fork de um projeto e criando um pull request
-

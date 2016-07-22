@@ -300,7 +300,7 @@ Para liberar os projetos da faculdade você pode seguir os passo abaixo, basicam
 - [ ] Criar a pasta do projeto;
 - [ ] Criar o arquivo `README.md ` com detalhes do projeto;
 - [ ] Criar o arquivo `.gitginore`;
-- [ ] Criar o um repositório no GitHub para obter a <URL do projeto>;
+- [ ] Criar o um repositório no GitHub para obter a `<URL do projeto>`;
 - [ ] Executar os comando do Git para versionar os seus arquivos fontes
 	- `git init`
 	- `git add .`

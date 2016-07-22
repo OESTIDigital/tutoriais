@@ -2,7 +2,7 @@
 
 :octocat:
 
-Esse tutotial tem como objetivo ser um guia para uso do Git e GitHub.
+Esse tutorial tem como objetivo ser um guia para uso do Git e GitHub.
 
 Se você tem alguma sugestão de melhoria para esse texto abra uma [issue](https://github.com/OESTIDigital/tutoriais/issues) ou se preferir você pode enviar um [pull request](https://github.com/OESTIDigital/tutoriais/pulls) com as modificações 🐞.
 
@@ -49,10 +49,10 @@ Se você tem alguma sugestão de melhoria para esse texto abra uma [issue](https
 
 ### Motivação
 
-- No seu computador ninguém ve o seu potencial
-- O GitHub é seu portifólio
+- No seu computador ninguém vê o seu potencial
+- O GitHub é seu portfólio
 - O código não é só seu, compartilhe ele.
-- Você pode ajduar muitas pessoas a escreverem software com mais qualidade
+- Você pode ajudar muitas pessoas a escreverem software com mais qualidade
 
 ### Compartilhamento de Código
 
@@ -69,56 +69,62 @@ Se você tem alguma sugestão de melhoria para esse texto abra uma [issue](https
 
 ### Sistema de Controle de Versão
 
-Um sistema de controle de versão tem a finalidade de gerenciar modificacoes em arquivos, um arquivo sofre muitas alteraçoes durante o seu uso sendo necessário manter um histórico dessas alteraçoes para posterior manipulação, por exemplo, voltar o aquivo para uma versão especifica. 
+Um sistema de controle de versão tem a finalidade de gerenciar modificações em arquivos, um arquivo sofre muitas alterações durante o seu uso sendo necessário manter um histórico dessas alteraçoes para posterior manipulação, por exemplo, voltar o aquivo para uma versão especifica. 
 
-No que diz respeito a código é essecial o controle de versao, pois com isso conseguimos vincualar uma documentação das alteracoes, comparar diferentes versoes e saber o que foi alterado e por que, entre outras vantagens. Em projetos de software o controle de versão esta diretamente vinculado ao trabalho em equipe onde muitas pessoas fazem diferentes alterações em arquivos, exigindo a mesclarem desse trabalho, a mesclarem desses arquivo pode ocorrer de foram automática ou no caso de conflitos exige a intervenção manual.
+No que diz respeito a código é essecial o controle de versão, pois com isso conseguimos vincular uma documentação das alteracoes, comparar diferentes versoes e saber o que foi alterado e por que, entre outras vantagens. Em projetos de software o controle de versão está diretamente vinculado ao trabalho em equipe onde muitas pessoas fazem diferentes alterações em arquivos, exigindo a mesclagem desse trabalho. Essa mescla é conhecida como __merge__, e pode ocorrer de forma automática. Caso mais pessoas alterem o mesmo código, será necessário lidar com esses conflitos manualmente.
 
-Em um sistema de controle de versao nos temos um repositório onde obtemos as versões do projeto ou de algum arquivo em especifico.
+Em um sistema de controle de versao nós temos um repositório onde obtemos as versões do projeto ou de algum arquivo em específico.
 
 ### Git
 
-O Git é um sistemas de controle de versão distribuído onde os usuários tem uma cópia dos repositórios em sua maquina, isso permite que você consiga fazer alterações e commits sem estar necessariamente ligado a um repositório remoto.
+O Git é um sistemas de controle de versão distribuído onde os usuários tem uma cópia dos repositórios em sua máquina, isso permite que você consiga fazer alterações e commits sem estar necessariamente ligado a um repositório remoto.
 
-Sistemas de controle de versão baseados no modelo cliente servidor, como por exemplo o SVN exigem que você tenha um servidor remoto para poder realizar alterações e commits.
+Sistemas de controle de versão baseados no modelo cliente servidor, como por exemplo o SVN exigem que você tenha um servidor remoto para poder centralizar as alterações.
 
-O Git é utilizado por inúmeras empresas é saber como utilizar ele é uma habilidade indispensável para uma carreira bem sucedidada no desenvolvedor de software.
+O Git é utilizado por inúmeras empresas. Atualmente é indispensável saber como utilizar ele para uma carreira bem sucedida em desenvolvimento de software.
 
-### Instanado o Git
+### Instalando o Git
 
 O processo de instalação é bem simples, acesse a página https://git-scm.com/downloads escolha o sistemas operacional que você esta utilizando e siga as instruções de instalação.
 
-Eu recomendo fortemente o uso de linha de comandos para trabalhar com o Git, você pode utilizar alguma GUI para complementar o uso da linha de comando, como por exemplos ver os logs de commit, arvore de commits, diff de commits, etc.
+Recomenda-se fortemente o uso de linha de comandos para trabalhar com o Git, você pode utilizar alguma GUI para complementar o uso da linha de comando, como por exemplos ver os logs de commit, árvore de commits, diff de commits, etc.
 
 Nesse site, https://git-scm.com/downloads/guis, você pode verificar algumas alternativas para clientes GUI.
 
 Para complementar o estudo faça o [Git Tutorial](https://try.github.io/)
 
-Outras ferramentas alem do Git: [SVN](https://subversion.apache.org/); [Mercurial](https://www.mercurial-scm.org/); [CSV](www.nongnu.org/cvs/); [Bazzar](bazaar.canonical.com/); [Microsoft TFS](https://www.visualstudio.com/pt-br/products/tfs-overview-vs.aspx).
+Outras ferramentas alem do Git:
+- [SVN](https://subversion.apache.org/)
+- [Mercurial](https://www.mercurial-scm.org/)
+- [CSV](www.nongnu.org/cvs/)
+- [Bazzar](bazaar.canonical.com/)
+- [Microsoft TFS](https://www.visualstudio.com/pt-br/products/tfs-overview-vs.aspx).
 
 ### GitHub
 
-É um serviço Web utilizado para hospedar repositórios Git - é um repositório remoto - ele também é uma rede social voltada para desenvolvedores com bastante influencia na comunidade open source, surgiu em 2008, e é utilizado por inúmeras empresas importantes como: Google; Nasa; Linekdin; Facebook; Twiiter; Contentools; RDStaton; Globo; NetFlix; Spotyfy que possuem projetos hospedados no GitHub.
+É uma plataforma colaborativa para usuários do git. Inicialmente funciona como um repositório remoto, porém também tem a função social e permite que os desenvolvedores discutam detalhes do código em questão.
 
-> Um repositorio remoto pode ficar na nuvem ou em outa máquina
+O site surgiu em 2007, e é utilizado por inúmeras empresas importantes como Google, Nasa, Linekdin, Facebook e Twitter.
 
-O GitHub é muito utilizado para hosedar projetos open source, logo os seu repositório são publocis, existe a versao paga que permite ter repositórios privados para empresas utilizarem.
+> Um repositório remoto pode ficar na nuvem ou em outa máquina
 
-Exsistem muuitas funcionaldaide que pdoem ser utilizadas pelo desenvolcedores:
+O GitHub é muito utilizado para hospedar projetos open source. E não custa nada se você quiser hospedar projetos públicos. Já para projetos privados é necessário pagar.
 
-- Wiki do projeto
-- Colaboradores
-- Issue
-- Releases
-- Follow
-- Whatch
-- Start
-- GitHub Pages
+Existem muitas funcionalidades que podem ser utilizadas pelo desenvolvedores:
 
-Nos precisamos mostrar para o mundo que o nosso código, e para isso nos podemos utilziar o GitHub, se você ainda tem tem uma conta no GitHUb crie uma se tiver dúvidas pode acessar esse video https://www.youtube.com/watch?v=i0TPn0KnqDs 
+- Wiki do projeto - crie documentações eficientes para seu projeto
+- Colaboradores - adicione pessoas que fazem parte do projeto
+- Issues - registrar e conversar sobre questões do projeto
+- Releases - controlar versões oficiais
+- Follow - siga outros desenvolvedores no github
+- Watch ( assista um projeto em específico e receba notificações sobre atualizações no projeto)
+- GitHub Pages - crie um site para seu projeto e hospede no github.
 
-> Importante: Git não é a mesma coisa que GitHub, Git é o controle de versão, GitHub é um local na Web que você hospeda seus projetos.
+Para mostrar seu código para o mundo utilize o GitHub. Se você ainda tem tem uma conta no GitHUb crie uma se tiver dúvidas pode acessar esse [vídeo](https://www.youtube.com/watch?v=i0TPn0KnqDs).
 
-Alem do GitHub temos outras alternaricas como: [GitLab](https://about.gitlab.com/); [BitBucket](https://bitbucket.org/) e [SourceForge](https://sourceforge.net/).
+> Importante: Git não é a mesma coisa que GitHub, Git é o controle de versão, GitHub é um site na web que você hospeda seus projetos.
+
+Alem do GitHub temos outras alternativas como: [GitLab](https://about.gitlab.com/); [BitBucket](https://bitbucket.org/) e [SourceForge](https://sourceforge.net/).
 
 ### Configurando o Git
 
@@ -174,20 +180,20 @@ O comando `git status` deve ser utilizado para verificar o estado dos seus arqui
 
 [Video](https://www.youtube.com/watch?v=zydxys3KVy4)
 
-Observe que o Git esta no falando que os nossos arquivos ainda não estão sendo rastreados, você precisa executar o comando `git add` para rastrear esse arquivos.
+Observe que o Git está falando que os arquivos ainda não estão sendo rastreados, você precisa executar o comando `git add` para rastrear esse arquivos.
 
 Você pode executar esse comando de duas formas:
 
 - Adicionado todos os arquivos: `git add .`.
 - Adicionado alguma arquivo especifico: `git add <nome do arquivo>`.
 
-[Video](https://www.youtube.com/watch?v=zQMmWx2_hf0)
+[Vídeo](https://www.youtube.com/watch?v=zQMmWx2_hf0)
 
 Os arquivos que compõem o nosso projeto já estão sendo rastreados nos precisamos agora gravar as nossas alterações, ou em uma linguagem mais técnica *commitar* no repositório local.
 
 Execute o comando `git commit -m "Incluído os arquivos index.html e index.css"`, o comando `git commit` foi invocado com a opção `-m` que recebe como parâmetro uma mensagem, essa mensagem vai estar vinculada ao log do commit.
 
-[Video](https://www.youtube.com/watch?v=I4-nBkRjGkc)
+[Vídeo](https://www.youtube.com/watch?v=I4-nBkRjGkc)
 
 Você também pode utilizar o comando `git commit -am "[menagem do commit]"` esse comando evita a necessidade de usar o `git add`
 
@@ -207,9 +213,9 @@ Se você quiser remover um arquivo do verssionamento você pode utilizar o coman
 
 **video** 
 
-### Ingorando arquivos
+### Ignorando arquivos
 
-Existem aquivos que não fazem sentido serem versionados, por exemplo arquivos compilados, de IDEs, ou temporários. O Git tem um macanismo que permite ignorar esse arquivos e pastas. Para isso basta criar um aquivo chamado `.gitingore`. e colocar dentro dele o que deve ser ignorado.
+Existem aquivos que não fazem sentido serem versionados, por exemplo arquivos compilados, de IDEs, ou temporários. O Git tem um mecânismo que permite ignorar esse arquivos e pastas. Para isso basta criar um aquivo chamado `.gitingore`. e colocar dentro dele o que deve ser ignorado.
 
 ```
 anotacoes.txt
@@ -229,23 +235,25 @@ Mais informações sobre o `gitingore`:
 
 O arquivo `README.md` é muito importante e deve sempre existir em um projeto, ele fica na raiz do projeto e pode possuir informações como:
 
-- instruções sobre configuração;
-- instruções sobre instalação;
-- instruções sobre como operar o programa;
-- créditos e agradecimentos;
-- changelog: relato de mudanças.
+- instruções sobre configuração
+- instruções sobre instalação
+- instruções sobre como operar o programa
+- créditos e agradecimentos
+- changelog: relato de mudanças
+
+> Lembre-se: quanto mais fácil for de entender o que seu projeto faz, mais fácil será de outras pessoas adotarem.
 
 ### Sincronizando alterações do repositório remoto com o repositório local
 
 Quando você for liberar as suas alterações no GitHub através do comando `git push` você pode receber uma mensagem como essa:
 
-O Git esta nos falando que o repositório remoto não esta sincronizado com o repositório local, para isso nos precisamos executar o comando `git pull` para sincronizar os dois repositórios.
+O Git esta nos falando que o repositório remoto não esta sincronizado com o repositório local, para isso nós precisamos executar o comando `git pull` para sincronizar os dois repositórios.
 
 *video*
 
 ### Apontando seu projeto para o GitHub
 
-No caso `sistema-biblioteca` nos inicializamos o repositório Git na maquina local e agora nos precisamos liberar esse projeto no repositório remoto, nesse caso nos precisamos apontar os dois repositório. Para isso nos vamos executar o comando `git remote`.
+No caso `sistema-biblioteca`, foi inicializado o repositório Git na maquina local e agora é necessário liberar esse projeto no repositório remoto, nesse caso nos precisamos apontar os dois repositório. Para isso nos vamos executar o comando `git remote`.
 
 Antes de executar o comando você deve criar um repositório no GitHub, quando o GitHub cria um repositório você recebe uma URL que vai permitir ligar os dois repositório.
 
@@ -265,7 +273,7 @@ Você precisara informar o usuário e senha do GitHub
 
 Acesse a URL do projeto no GitHub e veja que as alterações foram enviadas.
 
-### Cloando um reposítorio
+### Clonando um reposítorio
 
 Você encontrou um projeto legal e você executar ele na sua máquina, para isso nos vamos clonar esse repositório através do comando `git clone`.
 
@@ -273,7 +281,7 @@ Você encontrou um projeto legal e você executar ele na sua máquina, para isso
 git clone https://github.com/jonatas/hp12c
 ```
 
-Depois disso uma pasta chamada `hp12c` é craido na minha máquina e eu vou ler o `README.md` ou outro arquivo de instruções para rodar o projeto na minha maquina.
+Depois disso uma pasta chamada `hp12c` é criado na minha máquina e eu vou ler o `README.md` ou outro arquivo de instruções para rodar o projeto na minha maquina.
 
 **video**
 

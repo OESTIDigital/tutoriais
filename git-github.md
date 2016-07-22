@@ -117,7 +117,7 @@ Alem do GitHub temos outras alternaricas como: [GitLab](https://about.gitlab.com
 
 ### Configurando o Git
 
-A configuracao basica que você precisa fazer é a de usuario e email, aterves de linha de comando digite a seguinte intrução, essas informações serão utilizadas nos commits:
+A configuração básica que você precisa fazer é a de usuário e email, através de linha de comando digite a seguinte instrução, essas informações serão utilizadas nos commits:
 
 ```
 git config --global user.name "<Seu Nome>"
@@ -131,19 +131,21 @@ git config --global user.name "Johni Douglas Marangon"
 git config --global user.email "johni.douglas.marangon@gmail.com"
 ```
 
-Você pode listar as suas configurações utilziando o comando `git config --list`. 
+Você pode listar as suas configurações utilizando o comando `git config --list`. 
 
-Exeistem outras configuraçoes que voc6e pode estar fazendo para melhor o seu ambiente de desenvolvimento, acesse esse (link)[https://git-scm.com/book/tr/v2/Customizing-Git-Git-Configuration] para ver uma lsita completa das configuraçoes do disponiveis.  
+Existem outras configurações que você pode estar fazendo para melhor o seu ambiente de desenvolvimento, acesse esse (link)[https://git-scm.com/book/tr/v2/Customizing-Git-Git-Configuration] para ver uma lista completa das configurações do disponíveis.  
 
-Outro comando util é que pdoe ser utilziaro é o `help` você pode listas a ajuda de todos os comandaos digitando `git help` ou obter detalhes de um comando usando `git help [nome do comando ]` como por exemplo: `git help commit`.
+[Video](https://www.youtube.com/watch?v=MU9zOq-cpU8)
+
+Outro comando útil que você pode utilizar é o `help` você pode listar a ajuda de todos os comandos digitando `git help` ou obter detalhes de um comando usando `git help [nome do comando ]` como por exemplo: `git help commit`.
 
 ### Versionando seu código com o Git
 
-Nao vamos inicializar um repositório cirnado uma pasta com o nome `meu-primeiro-projeto` o objetivo é utilziar essa pasta como exemplo de uso do Git.
+Nós vamos inicializar um repositório criando uma pasta com o nome `sistema-biblioteca` o objetivo é utilizar essa pasta como exemplo de uso do Git.
 
 ```
-mkdir meu-primeiro-projeto
-cd meu-primeiro-projeto
+mkdir sistema-biblioteca
+cd sistema-biblioteca
 ```
 
 O comando `init` transforam o diretório em um repositório Git. 
@@ -152,9 +154,9 @@ O comando `init` transforam o diretório em um repositório Git.
 git init
 ```
 
-Nosso proejto ainda vazio, mas já podemos verificar a existencia de uma pasta oculta chamda `.git`, nesse pasta ficam os metaados do repositório. Voce nao deve excluir ou altare qualqeur arquivo deses local.
+Nosso projeto ainda está vazio, mas já podemos verificar a existência de uma pasta oculta chamada `.git`, nesse pasta ficam os metadados do repositório. Você não deve excluir ou alterar qualquer arquivo desse local.
 
-Para rastrear um aquivo nos precisamos crialo dentro do repositório, nesse exeplo nos vamoso criar uma sequencoa de arquivos para demostrat o uso dos comandos e simualr a existenca de um projeto
+Para rastrear aquivos nos precisamos criar eles dentro do repositório, como abaixo:
 
 ```
 touch index.html
@@ -163,50 +165,70 @@ mkdir css
 touch css/index.css
 ```
 
-O comando `git status` deve ser utiliar para verificar o estado dos seu arquivos, execeute esse comando no repositório e você vai ter uma saida como essa:
+O comando `git status` deve ser utilizado para verificar o estado dos seus arquivos, execute esse comando no repositório e você vai ter uma saída como essa:
 
-**video**
+[Video](https://www.youtube.com/watch?v=zydxys3KVy4)
 
-Observe que o Git esta no falando que os nosso arquvos ainda nao estao sendo raterado, voce precisa executar o comando `git add` para rastreas essse arquivos.
+Observe que o Git esta no falando que os nossos arquivos ainda não estão sendo rastreados, você precisa executar o comando `git add` para rastrear esse arquivos.
 
-Voce pode executar esse comando de duas formas:
+Você pode executar esse comando de duas formas:
 
-- Adicionado tdoos os arquivos: `git add .`.
-- Adicioando alguma arquivo expecifico: `git add <nome do arquivo>`.
+- Adicionado todos os arquivos: `git add .`.
+- Adicionado alguma arquivo especifico: `git add <nome do arquivo>`.
 
-**video**
+[Video](https://www.youtube.com/watch?v=zQMmWx2_hf0)
 
-Os arquivos que compoes o nosso projeto já estao sendo rastrados nos precisamo agora gravar as nossas alteraçoes, ou em uma lingaugem mais tecnica *commitar* no repostitório.
+Os arquivos que compõem o nosso projeto já estão sendo rastreados nos precisamos agora gravar as nossas alterações, ou em uma linguagem mais técnica *commitar* no repositório local.
 
-Execeute o commando `git commit -m "Incluído os arquvos index.html e index.css"`, o comando `git commit` foi invocado com a opção `-m` que rece como parametro uma mensagem, essa mensagem vai estar vinculada ao log do commit.
+Execute o comando `git commit -m "Incluído os arquivos index.html e index.css"`, o comando `git commit` foi invocado com a opção `-m` que recebe como parâmetro uma mensagem, essa mensagem vai estar vinculada ao log do commit.
 
-Voce tambem pode utilair o comandndo `git commit -am "[menagem do commit]"` esse comando discarta a necessidade de usar o `git add`
+[Video](https://www.youtube.com/watch?v=I4-nBkRjGkc)
+
+Você também pode utilizar o comando `git commit -am "[menagem do commit]"` esse comando evita a necessidade de usar o `git add`
+
+> Utilize o comando `git log` para ver o log de commits.
+
+**video** 
 
 ### Alterando um arquivo
 
-Voce ao longo do desenvocimento do projeto vai fazendo alteracoes em arquivos ja rastreados, nesse casoso voce deve utilziar os comandos `git add` e `git commit` pra liberar as modificacoes.
+Ao longo do desenvolvimento do projeto vai fazendo alterações em arquivos já rastreados, nesse caso você deve utilizar os comandos `git add` e `git commit` pra liberar as modificações.
 
 **video** 
 
 ### Removendo um arquivo
 
-Se voce quiser remover um arquivo do versionando voce pode utilizar o comando `git rm [nome do arquivo]` esse comando não exclui o arquivo do disco, penas remove ele do reasteramento, se voce quiser excuiro arquivo voce podem apenas deletar ele.
+Se você quiser remover um arquivo do verssionamento você pode utilizar o comando `git rm [nome do arquivo]` esse comando não exclui o arquivo do disco, penas remove ele do reastreamento, para remover do disco o arquivo apenas delete ele.
 
 **video** 
 
 ### Ingorando arquivos
 
-.gitingore 
-Proque ignorar arquivos
-Esse arquivos e pastas serao ingnorados pelo Git
-https://github.com/github/gitignore
-https://git-scm.com/docs/gitignore
-https://help.github.com/articles/ignoring-files/
+Existem aquivos que não fazem sentido serem versionados, por exemplo arquivos compilados, de IDEs, ou temporários. O Git tem um macanismo que permite ignorar esse arquivos e pastas. Para isso basta criar um aquivo chamado `.gitingore`. e colocar dentro dele o que deve ser ignorado.
 
-## Compartilhando seu código atraves do GitHub
+```
+anotacoes.txt
+*.exe
+eclipse/
+```
+
+Mais informações sobre o `gitingore`:
+
+- https://github.com/github/gitignore
+- https://git-scm.com/docs/gitignore
+- https://help.github.com/articles/ignoring-files/
+
+## Compartilhando seu código através do GitHub
 
 ### Documentação
 
+O arquivo `README.md` é muito importante e deve sempre existir em um projeto, ele fica na raiz do proejto e pode possuir informações como:
+
+- instruções sobre configuração;
+- instruções sobre instalação;
+- instruções sobre como operar o programa;
+- créditos e agradecimentos;
+- changelog: relato de mudanças.
 
 ### Apontando seu projeto para o GitHub
 
@@ -263,4 +285,5 @@ Nesse caso voce deve clonar o projeto com o comando `git clone` fazer a modifico
 - [ ] Executar o seguinte comandos para subir os aquivos no GitHub
 	- `git add origin <URL do projeto>`
 	- `git push origin master`
+
 *video*

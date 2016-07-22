@@ -8,10 +8,10 @@ Se você tem alguma sugestão de melhoria para esse texto abra uma [issue](https
 
 ## Objetivos
 
-- Entender o que é controle de versão.
-- Principais comandos do Git.
-- Como usar o GitHub.
-- Aprender a compartilhar seu código.
+- Entender o que é controle de versão
+- Principais comandos do Git
+- Como usar o GitHub
+- Aprender a compartilhar seu código
 
 ## Material complementar
 
@@ -38,16 +38,16 @@ Se você tem alguma sugestão de melhoria para esse texto abra uma [issue](https
 
 ### Mitos
 
-- Git e GitHub é dificil.
-- Medo de usar linha de comando.
-- O que eu estou escrevendo não é bom.
+- Git e GitHub é dificil
+- Medo de usar linha de comando
+- O que eu estou escrevendo não é bom
 
 ### Motivação
 
-- No seu computador ninguem ve o seu potencial.
-- O GitHub é seu portifólio.
+- No seu computador ninguém ve o seu potencial
+- O GitHub é seu portifólio
 - O código não é só seu, compartilhe ele.
-- Você pode ajduar muitas pessoas a escreverem software com mais qualidade.
+- Você pode ajduar muitas pessoas a escreverem software com mais qualidade
 
 ### Compartilhamento de Código
 
@@ -56,62 +56,64 @@ Se você tem alguma sugestão de melhoria para esse texto abra uma [issue](https
 - Escreva código e libere no GitHub
 - Crie Gists
 - Escreva seus prórpios projetos
-- Compartilhe os projetos que você esta usando
+- Compartilhe os projetos que você esta usando (em redes sociais, converse com amigos, escreva sobre eles)
 - Crie um blog e escreva sobre o que você esta fazendo
 - Participe de eventos e ajude a organizar
 
 ## Entendendo o Git & GitHub
 
-### Git
+### Sistema de Controle de Versão
 
 Um sistema de controle de versão tem a finalidade de gerenciar modificacoes em arquivos, um arquivo sofre muitas alteraçoes durante o seu uso sendo necessário manter um histórico dessas alteraçoes para posterior manipulação, por exemplo, voltar o aquivo para uma versão especifica. 
 
-No que diz respeito a código é essecial o controle de versao, pois com isso conseguimos vincualar uma documentação das alteracóes, comparar diferentes versoes e saber o que foi alterado e por que, entre outras vantagens. Em projetos de software o controle de versão esta diretametne vonculado ao trabalho em equipe onde muitas pessoas fazem diferentes alteracoes em arquivos, exigindo a mesclagem desse trabalho.
+No que diz respeito a código é essecial o controle de versao, pois com isso conseguimos vincualar uma documentação das alteracoes, comparar diferentes versoes e saber o que foi alterado e por que, entre outras vantagens. Em projetos de software o controle de versão esta diretamente vinculado ao trabalho em equipe onde muitas pessoas fazem diferentes alterações em arquivos, exigindo a mesclarem desse trabalho, a mesclarem desses arquivo pode ocorrer de foram automática ou no caso de conflitos exige a intervenção manual.
 
-Em um sistema de contrle de versao nos tempo um repositório onde obtemos as versoes do projeto ou de algum arquivo em especifico, a mesclagem desses arquivo pode ocorrer de foram automatica ou no caso de comflitos exige a intervncao manual.
+Em um sistema de controle de versao nos temos um repositório onde obtemos as versões do projeto ou de algum arquivo em especifico.
 
-O Git é um sistemas de controle de versão distribuido onde os usuários tem uma cópia dos repositórios em sua maquina, isso permite que você cosiga fazer alteraçoes e commits sem estar necessriamente a um repositório remoto.
+### Git
 
-Exetem outros sistemas de controle de versão basedos no modelo cliente servidor, como por exemplo o SVN, esse sistemas exigem que você tenha um servidor remoto para poder realizar alteracoes e commits.
+O Git é um sistemas de controle de versão distribuído onde os usuários tem uma cópia dos repositórios em sua maquina, isso permite que você consiga fazer alterações e commits sem estar necessariamente ligado a um repositório remoto.
 
-Criado em 2005 por Linus Torvals para manter o kernel do Linux, o uso do Git em engenharia de software a Gerencia de Configuracao de Software, onde mantemos informações do que mudou, quando mudou, porque mudou é uma docmunentacao vinculada a versão dos arquivos.
+Sistemas de controle de versão baseados no modelo cliente servidor, como por exemplo o SVN exigem que você tenha um servidor remoto para poder realizar alterações e commits.
 
-O Git é utilicados por inumeras empresas é saber como utilziar ele é uma habildiade indispensavel para uma carreira bem sucessidade no desenvolvimento de software.
+O Git é utilizado por inúmeras empresas é saber como utilizar ele é uma habilidade indispensável para uma carreira bem sucedidada no desenvolvedor de software.
 
 ### Instanado o Git
 
-O processo de isntalacao é bem simples, acesse a página https://git-scm.com/downloads escolha o sistemas operacional que voce esta utilizando e sigua as instruções de intralacao.
+O processo de instalação é bem simples, acesse a página https://git-scm.com/downloads escolha o sistemas operacional que você esta utilizando e siga as instruções de instalação.
 
-Eu recomendo fortemente o uso de linha de comandos para trabalhando com o Git, você pode utilizar alguma GUI para complementear o uso da linha de comando, como pode exemplos ver os logs de commit, arvore de commits, diff de commits, etc.
+Eu recomendo fortemente o uso de linha de comandos para trabalhar com o Git, você pode utilizar alguma GUI para complementar o uso da linha de comando, como por exemplos ver os logs de commit, arvore de commits, diff de commits, etc.
 
-Nesse site, https://git-scm.com/downloads/guis, você pode verificar algumas alternativas para GUI Clientes
+Nesse site, https://git-scm.com/downloads/guis, você pode verificar algumas alternativas para clientes GUI.
 
 Para complementar o estudo faça o [Git Tutorial](https://try.github.io/)
 
-Outras ferramentas alem do Git: SVN; Mercurial; CSV; Bazzar; Microsoft TFS
+Outras ferramentas alem do Git: [SVN](https://subversion.apache.org/); [Mercurial](https://www.mercurial-scm.org/); [CSV](www.nongnu.org/cvs/); [Bazzar](bazaar.canonical.com/); [Microsoft TFS](https://www.visualstudio.com/pt-br/products/tfs-overview-vs.aspx).
 
 ### GitHub
 
-É um serviço Web utilziar para hospedar repositórios Git, ele tem é uma rede social voltada para desenvolvedores com bastatne influencia na comunidade open Source, surgiu em 2008, e é utilziado por inumeras empresas importantes como: Google; Nasa; Linekdin; Facebook; Twiiter; Contentools; RDStaton; Globo; NetFlix; Spotyfy que possuem projetos hospedados no GitHub.
+É um serviço Web utilizado para hospedar repositórios Git - é um repositório remoto - ele também é uma rede social voltada para desenvolvedores com bastante influencia na comunidade open source, surgiu em 2008, e é utilizado por inúmeras empresas importantes como: Google; Nasa; Linekdin; Facebook; Twiiter; Contentools; RDStaton; Globo; NetFlix; Spotyfy que possuem projetos hospedados no GitHub.
+
+> Um repositorio remoto pode ficar na nuvem ou em outa máquina
+
+O GitHub é muito utilizado para hosedar projetos open source, logo os seu repositório são publocis, existe a versao paga que permite ter repositórios privados para empresas utilizarem.
 
 Exsistem muuitas funcionaldaide que pdoem ser utilizadas pelo desenvolcedores:
 
 - Wiki do projeto
-- Colaboradores 
+- Colaboradores
 - Issue
 - Releases
 - Follow
-- Whatch 
+- Whatch
 - Start
-- GitHub Pages	
-
-Alem do GitHub temos outras alternaricas como: GitLab; BitBuckets e SourceForge.
-
-O GitHub é muito utilizado para hosedar projetos Open SOurce, logo os seu repositório são publocis, existe a versao paga que permite ter repositórios privados para empresas utilizarem.
+- GitHub Pages
 
 Nos precisamos mostrar para o mundo que o nosso código, e para isso nos podemos utilziar o GitHub, se você ainda tem tem uma conta no GitHUb crie uma se tiver dúvidas pode acessar esse video https://www.youtube.com/watch?v=i0TPn0KnqDs 
 
 > Importante: Git não é a mesma coisa que GitHub, Git é o controle de versão, GitHub é um local na Web que você hospeda seus projetos.
+
+Alem do GitHub temos outras alternaricas como: [GitLab](https://about.gitlab.com/); [BitBucket](https://bitbucket.org/) e [SourceForge](https://sourceforge.net/).
 
 ### Configurando o Git
 

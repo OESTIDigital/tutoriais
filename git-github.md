@@ -203,7 +203,7 @@ Ao longo do desenvolvimento do projeto vai fazendo alterações em arquivos já 
 
 ### Removendo um arquivo
 
-Se você quiser remover um arquivo do verssionamento você pode utilizar o comando `git rm [nome do arquivo]` esse comando não exclui o arquivo do disco, penas remove ele do reastreamento, para remover do disco o arquivo apenas delete ele.
+Se você quiser remover um arquivo do verssionamento você pode utilizar o comando `git rm [nome do arquivo]` esse comando excluí o arquivo do disco.
 
 **video** 
 

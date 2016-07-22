@@ -60,7 +60,7 @@ Se você tem alguma sugestão de melhoria para esse texto abra uma [issue](https
 - De like em projetos que você gostou e usou
 - Escreva código e libere no GitHub
 - Crie Gists
-- Escreva seus prórpios projetos
+- Escreva seus próprios projetos
 - Compartilhe os projetos que você esta usando (em redes sociais, converse com amigos, escreva sobre eles)
 - Crie um blog e escreva sobre o que você esta fazendo
 - Participe de eventos e ajude a organizar
@@ -71,7 +71,7 @@ Se você tem alguma sugestão de melhoria para esse texto abra uma [issue](https
 
 Um sistema de controle de versão tem a finalidade de gerenciar modificações em arquivos, um arquivo sofre muitas alterações durante o seu uso sendo necessário manter um histórico dessas alteraçoes para posterior manipulação, por exemplo, voltar o aquivo para uma versão especifica. 
 
-No que diz respeito a código é essecial o controle de versão, pois com isso conseguimos vincular uma documentação das alteracoes, comparar diferentes versoes e saber o que foi alterado e por que, entre outras vantagens. Em projetos de software o controle de versão está diretamente vinculado ao trabalho em equipe onde muitas pessoas fazem diferentes alterações em arquivos, exigindo a mesclagem desse trabalho. Essa mescla é conhecida como __merge__, e pode ocorrer de forma automática. Caso mais pessoas alterem o mesmo código, será necessário lidar com esses conflitos manualmente.
+No que diz respeito a código é essencial o controle de versão, pois com isso conseguimos vincular uma documentação das alteracoes, comparar diferentes versoes e saber o que foi alterado e por que, entre outras vantagens. Em projetos de software o controle de versão está diretamente vinculado ao trabalho em equipe onde muitas pessoas fazem diferentes alterações em arquivos, exigindo a mesclagem desse trabalho. Essa mescla é conhecida como __merge__, e pode ocorrer de forma automática. Caso mais pessoas alterem o mesmo código, será necessário lidar com esses conflitos manualmente.
 
 Em um sistema de controle de versao nós temos um repositório onde obtemos as versões do projeto ou de algum arquivo em específico.
 
@@ -118,7 +118,8 @@ Existem muitas funcionalidades que podem ser utilizadas pelo desenvolvedores:
 - Releases - controlar versões oficiais
 - Follow - siga outros desenvolvedores no github
 - Watch ( assista um projeto em específico e receba notificações sobre atualizações no projeto)
-- GitHub Pages - crie um site para seu projeto e hospede no github.
+- GitHub Pages - crie um site para seu projeto e hospede no github
+- Gist - É uma maneira simples de compartilhar trechos de código
 
 Para mostrar seu código para o mundo utilize o GitHub. Se você ainda tem tem uma conta no GitHUb crie uma se tiver dúvidas pode acessar esse [vídeo](https://www.youtube.com/watch?v=i0TPn0KnqDs).
 

@@ -222,7 +222,7 @@ Mais informações sobre o `gitingore`:
 
 ### Documentação
 
-O arquivo `README.md` é muito importante e deve sempre existir em um projeto, ele fica na raiz do proejto e pode possuir informações como:
+O arquivo `README.md` é muito importante e deve sempre existir em um projeto, ele fica na raiz do projeto e pode possuir informações como:
 
 - instruções sobre configuração;
 - instruções sobre instalação;
@@ -230,45 +230,48 @@ O arquivo `README.md` é muito importante e deve sempre existir em um projeto, e
 - créditos e agradecimentos;
 - changelog: relato de mudanças.
 
+### Sincronizando alteraçoes do reposótior remoto com o repositório local
+
+
 ### Apontando seu projeto para o GitHub
 
-No caso `meu-primeiro-projeto` nos inicializamos o respostio Git na maquina local e agora nos precisamos liberar esse projeto no repositorio remoto, nesse caso nos precisamos apontar os dois reposótirios. Para isso nos vamos executar o comando `git remote`.
+No caso `sistema-biblioteca` nos inicializamos o repositório Git na maquina local e agora nos precisamos liberar esse projeto no repositório remoto, nesse caso nos precisamos apontar os dois repositório. Para isso nos vamos executar o comando `git remote`.
 
-Antes de executar o comadno voce deve criar um rempostiro no GitHub esse video mostrar como afazer isso, quando o GitHub cria um repositório voce rece uma URL que vai quer permite ligar os dois respositório.
+Antes de executar o comando você deve criar um repositório no GitHub, quando o GitHub cria um repositório você recebe uma URL que vai permitir ligar os dois repositório.
 
 ```
 git remote add origin <URL do GitHub>
 ```
 
-Apoos isso nos precismos enviar as apteracoes para o GitHub, o comando `git push` deve ser usado para fazer isso
+Após isso nos precismos enviar as alterações para o GitHub, o comando `git push` deve ser usado para fazer isso
 
 ```
-git push origin master
+git push -u origin master
 ```
 
-Voce precisara informar o usuário e senha do GitHub
+Você precisara informar o usuário e senha do GitHub
 
 **video**
 
-Acesse a URL do proejto no GitHub e veja que as aletarcpes foram enviadas
+Acesse a URL do projeto no GitHub e veja que as alterações foram enviadas.
 
 ### Cloando um reposítorio
 
-Voce escontrou um projeto legal e você execeutar ele na sua maquiana, para isso nos vamos coner esse repostitprio atraves do comando `git clone`
+Você encontrou um projeto legal e você executar ele na sua máquina, para isso nos vamos clonar esse repositório através do comando `git clone`.
 
 ```
 git clone https://github.com/jonatas/hp12c
 ```
 
-Despous dissso uma pasta chamada `hp12c` é craido na minha máquina e eu vou ler o `README.md` ou utro arquivo de instruções para toda ro projeto na minha maquina
+Depois disso uma pasta chamada `hp12c` é craido na minha máquina e eu vou ler o `README.md` ou outro arquivo de instruções para rodar o projeto na minha maquina.
 
-###  Cloando um reposítorio e subindo alterações no seu GitHub
+**video**
 
-Nesse caso voce deve clonar o projeto com o comando `git clone` fazer a modificoes commitar as alteracoes e executar o comando `git push`
+###  Clonado um repositório e subindo alterações no seu GitHub
+
+Nesse caso você deve clonar o projeto com o comando `git clone` fazer a modificações commitar as alterações e executar o comando `git push`
 
 *video*
-
-##### Fazendo fork de um projeto e criando um pull requests
 
 ### Subindo os projetos da faculdade
 
@@ -287,3 +290,7 @@ Nesse caso voce deve clonar o projeto com o comando `git clone` fazer a modifico
 	- `git push origin master`
 
 *video*
+
+
+
+### Fazendo fork de um projeto e criando um pull requests

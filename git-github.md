@@ -230,8 +230,13 @@ O arquivo `README.md` é muito importante e deve sempre existir em um projeto, e
 - créditos e agradecimentos;
 - changelog: relato de mudanças.
 
-### Sincronizando alteraçoes do reposótior remoto com o repositório local
+### Sincronizando alterações do repositório remoto com o repositório local
 
+Quando você for liberar as suas alterações no GitHub através do comando `git push` você pode receber uma mensagem como essa:
+
+O Git esta nos falando que o repositório remoto não esta sincronizado com o repositório local, para isso nos precisamos executar o comando `git pull` para sincronizar os dois repositórios.
+
+*video*
 
 ### Apontando seu projeto para o GitHub
 

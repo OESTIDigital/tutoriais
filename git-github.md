@@ -138,7 +138,7 @@ git config --global user.email "johni.douglas.marangon@gmail.com"
 
 Você pode listar as suas configurações utilizando o comando `git config --list`. 
 
-Existem outras configurações que você pode estar fazendo para melhor o seu ambiente de desenvolvimento, acesse esse (link)[https://git-scm.com/book/tr/v2/Customizing-Git-Git-Configuration] para ver uma lista completa das configurações do disponíveis.  
+Existem outras configurações que você pode estar fazendo para melhor o seu ambiente de desenvolvimento, acesse esse [link](https://git-scm.com/book/tr/v2/Customizing-Git-Git-Configuration) para ver uma lista completa das configurações do disponíveis.  
 
 [Video](https://www.youtube.com/watch?v=MU9zOq-cpU8)
 

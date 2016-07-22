@@ -273,15 +273,25 @@ Nesse caso você deve clonar o projeto com o comando `git clone` fazer a modific
 
 *video*
 
+### Fazendo fork de um projeto e criando pull requests
+
+Fork e pull requests são ações utilziadas para contribuir com projetos open source com o github.
+
+O fork consiste em realizar a cópia de um repositório de alguém aos nossos repositórios. Ele é o primeiro passo para colaborar em um projeto.
+
+O pull request consiste em uma solicitação de integração das nossas modificações com o repositório que realizamos um fork. Para realizar um pull request devemos ir até o repositório gerado pela operação de fork (na nossa base de repositórios). Lá, encontraremos um botão chamado ‘pull request’:
+
+*video*
+
 ### Subindo os projetos da faculdade
 
-#### Check list
+Para liberar os projetos da faculdade você pode seguir os passo abaixo, basicamente é um conjunto de comandos que já conhecemo.
 
-- [ ] Cirar a psata do projeto
-- [ ] Crair o arquivo README.md com detalehs do proejto 
-- [ ] Criar o arquivo gitginore
-- [ ] Cirar o um repositorio no GitHub para obtera a URL do projeto
-- [ ] Execuar os comando do Git para versionar os seus arquivos fontes
+- [ ] Criar a pasta do projeto;
+- [ ] Criar o arquivo `README.md ` com detalhes do projeto;
+- [ ] Criar o arquivo `.gitginore`;
+- [ ] Criar o um repositório no GitHub para obter a <URL do projeto>;
+- [ ] Executar os comando do Git para versionar os seus arquivos fontes
 	- `git init`
 	- `git add .`
 	- `git commit` 
@@ -290,7 +300,3 @@ Nesse caso você deve clonar o projeto com o comando `git clone` fazer a modific
 	- `git push origin master`
 
 *video*
-
-
-
-### Fazendo fork de um projeto e criando um pull requests

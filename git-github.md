@@ -24,7 +24,7 @@ Se você tem alguma sugestão de melhoria para esse texto abra uma [issue](https
 ### Tutoriais
 
 - http://rogerdudler.github.io/git-guide/
-- johnidouglas.com/dicas-para-uso-do-git-e-o-github/
+- http://johnidouglas.com/dicas-para-uso-do-git-e-o-github/
 
 ### Curso
 

@@ -140,9 +140,9 @@ Você pode listar as suas configurações utilizando o comando `git config --lis
 
 Existem outras configurações que você pode estar fazendo para melhor o seu ambiente de desenvolvimento, acesse esse [link](https://git-scm.com/book/tr/v2/Customizing-Git-Git-Configuration) para ver uma lista completa das configurações do disponíveis.  
 
-[Video](https://www.youtube.com/watch?v=MU9zOq-cpU8)
-
 Outro comando útil que você pode utilizar é o `help` você pode listar a ajuda de todos os comandos digitando `git help` ou obter detalhes de um comando usando `git help [nome do comando ]` como por exemplo: `git help commit`.
+
+[Video](https://youtu.be/p_aILlgYcOA)
 
 ### Versionando seu código com o Git
 

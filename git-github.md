@@ -200,13 +200,13 @@ Você também pode utilizar o comando `git commit -am "[menagem do commit]"` ess
 
 Ao longo do desenvolvimento do projeto vai fazendo alterações em arquivos já rastreados, nesse caso você deve utilizar os comandos `git add` e `git commit` pra liberar as modificações.
 
-[Video]() 
+[Video](https://youtu.be/vUI0THHSWkU) 
 
 ### Removendo um arquivo
 
 Se você quiser remover um arquivo do verssionamento você pode utilizar o comando `git rm [nome do arquivo]` esse comando excluí o arquivo do disco.
 
-[Video]() 
+[Video](https://youtu.be/hUcF7x3aurU) 
 
 ### Ignorando arquivos
 

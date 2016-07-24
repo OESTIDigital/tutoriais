@@ -224,7 +224,7 @@ Mais informações sobre o `gitingore`:
 - https://git-scm.com/docs/gitignore
 - https://help.github.com/articles/ignoring-files/
 
-[Video]()
+[Video](https://youtu.be/ivXPnC1ir5Y)
 
 ## Compartilhando seu código através do GitHub
 

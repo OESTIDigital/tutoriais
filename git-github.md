@@ -149,7 +149,7 @@ Existem outras configurações que você pode estar fazendo para melhor o seu am
 
 Outro comando útil que você pode utilizar é o `help` você pode listar a ajuda de todos os comandos digitando `git help` ou obter detalhes de um comando usando `git help [nome do comando ]` como por exemplo: `git help commit`.
 
-[Video](https://youtu.be/p_aILlgYcOA)
+[Video](https://www.youtube.com/watch?v=NjvCBDpz8_U)
 
 ### Versionando seu código com o Git
 
@@ -179,8 +179,6 @@ touch css/index.css
 
 O comando `git status` deve ser utilizado para verificar o estado dos seus arquivos, execute esse comando no repositório e você vai ter uma saída como essa:
 
-[Video](https://www.youtube.com/watch?v=zydxys3KVy4)
-
 Observe que o Git está falando que os arquivos ainda não estão sendo rastreados, você precisa executar o comando `git add` para rastrear esse arquivos.
 
 Você pode executar esse comando de duas formas:
@@ -188,13 +186,11 @@ Você pode executar esse comando de duas formas:
 - Adicionado todos os arquivos: `git add .`.
 - Adicionado alguma arquivo especifico: `git add <nome do arquivo>`.
 
-[Vídeo](https://www.youtube.com/watch?v=zQMmWx2_hf0)
+[Vídeo](https://youtu.be/ihSNYRyK8UQ)
 
 Os arquivos que compõem o nosso projeto já estão sendo rastreados nos precisamos agora gravar as nossas alterações, ou em uma linguagem mais técnica *commitar* no repositório local.
 
 Execute o comando `git commit -m "Incluído os arquivos index.html e index.css"`, o comando `git commit` foi invocado com a opção `-m` que recebe como parâmetro uma mensagem, essa mensagem vai estar vinculada ao log do commit.
-
-[Vídeo](https://www.youtube.com/watch?v=I4-nBkRjGkc)
 
 Você também pode utilizar o comando `git commit -am "[menagem do commit]"` esse comando evita a necessidade de usar o `git add`
 
@@ -243,14 +239,6 @@ O arquivo `README.md` é muito importante e deve sempre existir em um projeto, e
 - changelog: relato de mudanças
 
 > Lembre-se: quanto mais fácil for de entender o que seu projeto faz, mais fácil será de outras pessoas adotarem.
-
-### Sincronizando alterações do repositório remoto com o repositório local
-
-Quando você for liberar as suas alterações no GitHub através do comando `git push` você pode receber uma mensagem como essa:
-
-O Git esta nos falando que o repositório remoto não esta sincronizado com o repositório local, para isso nós precisamos executar o comando `git pull` para sincronizar os dois repositórios.
-
-*video*
 
 ### Apontando seu projeto para o GitHub
 

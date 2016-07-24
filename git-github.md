@@ -306,4 +306,4 @@ Para liberar os projetos da faculdade você pode seguir os passo abaixo, basicam
 	- `git add origin <URL do projeto>`
 	- `git push origin master`
 
-[Video]()
+[Video](https://youtu.be/XURXM3DojDU)

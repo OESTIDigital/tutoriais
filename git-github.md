@@ -196,19 +196,17 @@ Você também pode utilizar o comando `git commit -am "[menagem do commit]"` ess
 
 > Utilize o comando `git log` para ver o log de commits.
 
-**video** 
-
 ### Alterando um arquivo
 
 Ao longo do desenvolvimento do projeto vai fazendo alterações em arquivos já rastreados, nesse caso você deve utilizar os comandos `git add` e `git commit` pra liberar as modificações.
 
-**video** 
+[Video]() 
 
 ### Removendo um arquivo
 
 Se você quiser remover um arquivo do verssionamento você pode utilizar o comando `git rm [nome do arquivo]` esse comando excluí o arquivo do disco.
 
-**video** 
+[Video]() 
 
 ### Ignorando arquivos
 
@@ -225,6 +223,8 @@ Mais informações sobre o `gitingore`:
 - https://github.com/github/gitignore
 - https://git-scm.com/docs/gitignore
 - https://help.github.com/articles/ignoring-files/
+
+[Video]()
 
 ## Compartilhando seu código através do GitHub
 
@@ -258,7 +258,7 @@ git push -u origin master
 
 Você precisara informar o usuário e senha do GitHub
 
-**video**
+[Video]()
 
 Acesse a URL do projeto no GitHub e veja que as alterações foram enviadas.
 
@@ -267,12 +267,12 @@ Acesse a URL do projeto no GitHub e veja que as alterações foram enviadas.
 Você encontrou um projeto legal e você executar ele na sua máquina, para isso nos vamos clonar esse repositório através do comando `git clone`.
 
 ```
-git clone https://github.com/jonatas/hp12c
+git clone <URL do repositório remoto>
 ```
 
 Depois disso uma pasta chamada `hp12c` é criado na minha máquina e eu vou ler o `README.md` ou outro arquivo de instruções para rodar o projeto na minha maquina.
 
-**video**
+[Video]()
 
 ###  Clonado um repositório e subindo alterações no seu GitHub
 
@@ -288,7 +288,7 @@ O fork consiste em realizar a cópia de um repositório de alguém aos nossos re
 
 O pull request consiste em uma solicitação de integração das nossas modificações com o repositório que realizamos um fork. Para realizar um pull request devemos ir até o repositório gerado pela operação de fork (na nossa base de repositórios). Lá, encontraremos um botão chamado ‘pull request’:
 
-*video*
+[Video]()
 
 ### Subindo os projetos da faculdade
 
@@ -306,4 +306,4 @@ Para liberar os projetos da faculdade você pode seguir os passo abaixo, basicam
 	- `git add origin <URL do projeto>`
 	- `git push origin master`
 
-*video*
+[Video]()

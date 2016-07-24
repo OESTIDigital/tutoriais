@@ -278,7 +278,7 @@ Depois disso uma pasta chamada `hp12c` é criado na minha máquina e eu vou ler 
 
 Nesse caso você deve clonar o projeto com o comando `git clone` fazer a modificações commitar as alterações e executar o comando `git push`
 
-*video*
+[](https://youtu.be/k5PqZO-yJas)
 
 ### Fazendo fork de um projeto e criando pull requests
 

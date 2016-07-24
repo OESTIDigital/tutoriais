@@ -288,7 +288,7 @@ O fork consiste em realizar a cópia de um repositório de alguém aos nossos re
 
 O pull request consiste em uma solicitação de integração das nossas modificações com o repositório que realizamos um fork. Para realizar um pull request devemos ir até o repositório gerado pela operação de fork (na nossa base de repositórios). Lá, encontraremos um botão chamado ‘pull request’:
 
-[Video]()
+[Video](https://youtu.be/NY58DVksBMk)
 
 ### Subindo os projetos da faculdade
 

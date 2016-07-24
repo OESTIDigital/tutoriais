@@ -258,7 +258,7 @@ git push -u origin master
 
 Você precisara informar o usuário e senha do GitHub
 
-[Video]()
+[Video](https://youtu.be/Iy1VAne_onU)
 
 Acesse a URL do projeto no GitHub e veja que as alterações foram enviadas.
 
@@ -272,13 +272,13 @@ git clone <URL do repositório remoto>
 
 Depois disso uma pasta chamada `hp12c` é criado na minha máquina e eu vou ler o `README.md` ou outro arquivo de instruções para rodar o projeto na minha maquina.
 
-[Video](https://youtu.be/Iy1VAne_onU)
+[Video](https://youtu.be/k5PqZO-yJas)
 
 ###  Clonado um repositório e subindo alterações no seu GitHub
 
 Nesse caso você deve clonar o projeto com o comando `git clone` fazer a modificações commitar as alterações e executar o comando `git push`
 
-[](https://youtu.be/k5PqZO-yJas)
+[Video]()
 
 ### Fazendo fork de um projeto e criando pull requests
 

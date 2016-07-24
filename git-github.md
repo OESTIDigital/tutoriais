@@ -272,7 +272,7 @@ git clone <URL do repositório remoto>
 
 Depois disso uma pasta chamada `hp12c` é criado na minha máquina e eu vou ler o `README.md` ou outro arquivo de instruções para rodar o projeto na minha maquina.
 
-[Video]()
+[Video](https://youtu.be/Iy1VAne_onU)
 
 ###  Clonado um repositório e subindo alterações no seu GitHub
 

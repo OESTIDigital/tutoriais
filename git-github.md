@@ -292,7 +292,7 @@ O pull request consiste em uma solicitação de integração das nossas modifica
 
 ### Subindo os projetos da faculdade
 
-Para liberar os projetos da faculdade você pode seguir os passo abaixo, basicamente é um conjunto de comandos que já conhecemo.
+Para liberar os projetos da faculdade você pode seguir os passo abaixo. Basicamente é um conjunto de comandos que já conhecemos.
 
 - [ ] Criar a pasta do projeto;
 - [ ] Criar o arquivo `README.md ` com detalhes do projeto;
